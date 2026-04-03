@@ -1,0 +1,70 @@
+
+
+    
+.hero {
+    position: relative; 
+    background-image: url(imagens/disco3.jpg);
+    height: 68vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.60;
+    background-size: cover;
+    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+
+h1 {
+  position: relative;
+  color: white;  
+  font-size: 14rem;
+  line-height: 0.7;
+  text-align: center;
+}
+
+nav{display:flex;
+    
+     width: 50vw; 
+     margin: 0 auto;
+     height:10vh; 
+     justify-content: space-evenly;
+     justify-items:center;
+     align-items: center;
+     font-family: 'Conforter', cursive;
+     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto Flex', sans-serif;
+     
+ 
+     }
+ 
+     nav a{text-decoration: none; color:black; font-size: 1.2 rem;}
+     nav a:hover{font-weight: bold;}
+
+     .nav-admin {
+         display: flex;
+         width: 50vw;
+         margin: 0 auto;
+         justify-content: space-evenly;
+         align-items: center;
+         gap: 1em;
+         padding: 0.3em 0;
+         background-color: #f0f0f0;
+         font-size: 0.85em;
+     }
+     .nav-admin a { text-decoration: none; color: #444; }
+     .nav-admin a:hover { font-weight: bold; }
+ 
+     main{
+          width: 50vw;
+          margin: 0 auto;
+          border: 1px solide silver;
+       }
+
+       
